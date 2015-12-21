@@ -1,26 +1,40 @@
-body {
+body, ul {
 	margin:0;
 	padding:0;
-	font-family: 'Open Sans', sans-serif;
+	background-color:#FCFCFC;
 }
-ul {
-	margin:0;
-	padding:0;
+body {
+	font-family: 'Open Sans', sans-serif;
 }
 nav {
 	height:100px;
+	font-size:20px;
+	font-weight:500;
+    border-bottom: 1px solid #CCC;
+    background-color:#fff;
 }
-.menu .logo {
+nav .menu .logo {
 	float:left;
+	width:250px;
+	padding:20px;
 }
-.menu li {
+nav .menu li {
 	display:inline;
 	float:left;
 	padding:40px 30px;
+
+}
+nav .menu li a {
+	color:#666;
+}
+nav .menu li a:hover {
+	color:#ED1450;
 }
 .container {
 	width:940px;
-	margin-left: auto;
-	margin-right:auto;
+	margin:50px auto;
 }
-
+.wrap {
+	width:940px;
+	margin:auto;
+}
