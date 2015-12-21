@@ -1,20 +1,12 @@
 "use strict";
 
+$(function(){
 var app = {
-	config: {
-		url:"https://smp.ovh",
-		target:"#main"
-	},
 	init : function(){
-		this.makeTpl();
+		this.menu;
 	},
-	makeTpl: function(){
-		var tpl = "<p>{{msg}}</p>";
-		var output = Mustache.render(tpl, {msg : "Coucous les simploniens !"});
-		$("#main").html(output);
-	}
+	menu : $('header').load("menu.html"),
 };
 
-$(document).ready(function(){
 	app.init();
 });
