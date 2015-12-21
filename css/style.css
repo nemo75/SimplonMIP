@@ -15,6 +15,7 @@ ul li {
 }
 nav {
 	height:100px;
+	width:100%;
 	font-size:20px;
 	font-weight:500;
     border-bottom: 1px solid #CCC;
@@ -63,11 +64,21 @@ nav .menu li a:hover {
 	display:block;
 	text-align:center;
 	font-size:18px;
-	position:absolute;
-	bottom:0;
 	padding-top:30px;
 }
 .footer a {
 	color:#fff;
 	margin-right:10px;
+}
+html, body {
+  	height: 90%;
+}
+.wrapper {
+  	min-height: 100%;
+  	margin-bottom: -100px; 
+}
+.wrapper:after {
+  	content: "";
+  	display: block;
+    height: 100px; 
 }
