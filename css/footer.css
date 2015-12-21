@@ -1,0 +1,24 @@
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+}
+ul {
+	margin:0;
+	padding:0;
+}
+nav {
+	height:900px;
+}
+.menu .logo {
+	float:left;
+}
+.footer li {
+	display:inline;
+	float:left;
+	padding:40px 30px;
+}
+.container {
+	width:940px;
+	margin:50px auto;
+}
