@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Floune/SimplonMIP.git"
+    "url": "https://github.com/SimplonTlse/Base.git"
   },
   "author": "Amine El Ghayate",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Floune/SimplonMIP/issues"
+    "url": "https://github.com/SimplonTlse/Base/issues"
   },
-  "homepage": "https://github.com/Floune/SimplonMIP",
+  "homepage": "https://github.com/SimplonTlse/Base",
   "dependencies": {
     "jquery": "^2.1.4",
     "mustache": "^2.2.1",
