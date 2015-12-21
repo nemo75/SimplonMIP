@@ -1,12 +1,5 @@
 "use strict";
-
-$(function(){
-var app = {
-	init : function(){
-		this.menu;
-	},
-	menu : $('header').load("menu.html"),
-};
-
-	app.init();
-});
+var app = new senna.App();
+    app.setBasePath('/');
+    app.addSurfaces('content');
+    app.addRoutes(new senna.Route(/\w+\.html/, senna.HtmlScreen));
