@@ -10,7 +10,7 @@ var app = new senna.App();
 		$.getJSON('https://smp.ovh/ppl.json', function(data){
 			var template = $("#template").html();
 			var info = Mustache.to_html(template, {users:data});
-			$('.carte').html(info);
+			$('.trombibi').html(info);
 		});
     };
 

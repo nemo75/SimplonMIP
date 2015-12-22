@@ -43,15 +43,22 @@
     </div>
     
     <!-- chargement des scripts -->
+    
     <script id="template" type="x-tmpl-mustache">
+    <div class="ui three column grid">
         {{#users}}
-        <div class = "perso ui segment"> 
-            <img src="../img/andrea.png" alt="{{first_name}} {{last_name}}" class="ui tiny circular image"/>
-            <p class="nomprenom">{{first_name}} {{last_name}}</p>
-            <p class="occupation">{{occupation}}</p>
-            <button class="tiny ui button">En savoir plus</button>
-        </div>
+        
+            <div class="column carte">
+                <div class = "perso ui segment"> 
+                    <img src="../img/andrea.png" alt="{{first_name}} {{last_name}}" class="ui tiny circular image"/>
+                    <p class="nomprenom">{{first_name}} {{last_name}}</p>
+                    <p class="occupation">{{occupation}}</p>
+                    <button class="tiny ui button">En savoir plus</button>
+                </div>
+            </div>
+        
         {{/users}}
+        </div>
     </script>
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
