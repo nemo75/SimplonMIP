@@ -70,11 +70,10 @@ ul li {
 	padding:0 0 0 30px;
 }
 
-/* Trombinoscope */
-.bandeaupromo {
-	height:300px;
-	background:#000;
+.container h1 {
+	margin-bottom: 20px;
 }
+
 .perso {
 	width:280px;
 	background-color:#fff;
