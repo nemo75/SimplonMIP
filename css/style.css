@@ -66,8 +66,32 @@ nav .menu li a:hover {
 	position:absolute;
 	bottom:0;
 	padding-top:30px;
+	margin-top : 0;
 }
 .footer a {
 	color:#fff;
 	margin-right:10px;
+}
+#bandeau-content img {
+	width:6%;
+	margin : 1%;
+}
+
+section section, section aside {
+	display : inline-block;
+	vertical-align: top;
+}
+section section {
+	width : 70%;
+}
+section aside {
+	width : 25%;
+	margin-left : 4.5%;
+}
+#bandeau-content {
+	width : 100%;
+	position: absolute;
+	bottom : 100px;
+	padding : 2%;
+	background-color: #C7C3C3;
 }
