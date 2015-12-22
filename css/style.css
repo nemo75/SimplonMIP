@@ -69,8 +69,12 @@ ul li {
 	display:inline-block;
 	padding:0 0 0 30px;
 }
+.container h1 {
+	margin-bottom: 20px;
+}
 
-/* Acceuil */
+/* Accueil */
+
 #news, .twitterbar {
 	display : inline-block;
 	vertical-align: top;
@@ -91,14 +95,9 @@ ul li {
 }
 
 /* Trombinoscope */
-.bandeaupromo {
-	height:300px;
-	background:#000;
-}
+
 .perso {
-	width:280px;
 	background-color:#fff;
-	display:inline-block;
 	border:1px solid #CCC;
 	padding:20px;
 }

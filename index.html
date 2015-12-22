@@ -26,8 +26,11 @@
             </div>
         </nav>            
     </header>
+    
+
 
     <section class="container wrapper" id="content">
+
     <div class="push"></div>
     </section>
     <div id="bandeau">
@@ -40,7 +43,17 @@
     </div>
     
     <!-- chargement des scripts -->
-    <!-- <script id="template" type="x-tmpl-mustache"><a href ="">{{first_name}} {{last_name}}</a></script> -->
+    <script id="template" type="x-tmpl-mustache">
+        {{#users}}
+        <div class = "perso ui segment"> 
+            <img src="../img/andrea.png" alt="{{first_name}} {{last_name}}" class="ui tiny circular image"/>
+            <p class="nomprenom">{{first_name}} {{last_name}}</p>
+            <p class="occupation">{{occupation}}</p>
+            <button class="tiny ui button">En savoir plus</button>
+        </div>
+        {{/users}}
+    </script>
+
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/semantic-ui-css/semantic.min.js"></script>
     <script src="node_modules/senna/build/senna.js"></script>
