@@ -215,12 +215,12 @@ html, body {
 
 /* Slider */
 
-#slider-surface {
+/*#slider-surface {
 	width : 100%;
 	background: #FCFCFC;
 	padding : 0;
 	margin-bottom:20px;
-}
+}*/
 #slider {
 	overflow : hidden;
 	width : 940px;
