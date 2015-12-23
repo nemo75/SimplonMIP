@@ -187,12 +187,26 @@ html, body {
 /**
 * Page formation
 */
-
-.promofutur16, .promofutur17 {
+#contentin h1, #contentin a {
+	color:#fff;
+	position:relative;
+	top:80px;
+	left:80px;
+}
+#contentin h1:hover, #contentin a:hover {
+	color:#ED1450;
+}
+.promofutur16, .promofutur17, .overlay {
 	border: 1px solid #CCC;
 	float: left;
 	width: 400px;
 	height: 200px;
+}
+.promofutur16, .promofutur17 {
+	margin-top:20px;
+}
+.overlay {
+	background-color:rgba(0,0,0,0.5);
 }
 .promofutur16 {
 	background-image: url('../img/promo1.jpg');
