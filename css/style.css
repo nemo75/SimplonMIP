@@ -12,6 +12,9 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	background-color:#FCFCFC;
 }
+h1 {
+	font-weight:100;
+}
 
 /* Menu */
 
@@ -52,7 +55,7 @@ ul li {
 }
 .container {
 	width:940px;
-	margin:50px auto;
+	margin:20px auto;
 }
 .container section h1 {
 	font-weight:300;
@@ -65,7 +68,7 @@ ul li {
 	font-size:16px;
 }
 .container .twitterbar {
-	width:20%;
+	width:30%;
 	display:inline-block;
 	padding:0 0 0 30px;
 }
@@ -73,16 +76,18 @@ ul li {
 	margin-bottom: 20px;
 }
 
-/* Accueil */
+/**
+* Accueil 
+* News + Twitter + Bandeau partenaires
+*/
 
 #news, .twitterbar {
 	display : inline-block;
 	vertical-align: top;
 }
 #news {
-	width : 70%;
+	width:65%;
 }
-
 #news article {
 	margin-bottom: 2%;
 	border : 1px solid #CCC;
@@ -109,7 +114,9 @@ ul li {
 .perso .occupation {
 	padding-bottom:5px;
 }
-
+.ui.grid {
+	margin-bottom:20px
+}
 /* Bandeau partenaires */
 
 #bandeau-content img {
@@ -137,7 +144,7 @@ ul li {
 	display:block;
 	text-align:center;
 	font-size:18px;
-	padding-top:30px;
+	padding-top:40px;
 	margin-top : 0;
 }
 .footer a {
@@ -155,12 +162,12 @@ html, body {
 }
 .wrapper {
   	min-height: 100%;
-  	margin-bottom: -100px; 
+  	margin-bottom: -72px; 
 }
 .wrapper:after {
   	content: "";
   	display: block;
-    height: 100px; 
+    height: 72px; 
 }
 
 /**
@@ -180,18 +187,34 @@ html, body {
 /**
 * Page formation
 */
-
-.promofutur16, .promofutur17 {
+#contentin h1, #contentin a {
+	color:#fff;
+	position:relative;
+	top:80px;
+	left:80px;
+}
+#contentin h1:hover, #contentin a:hover {
+	color:#ED1450;
+}
+.promofutur16, .promofutur17, .overlay {
 	border: 1px solid #CCC;
 	float: left;
 	width: 400px;
 	height: 200px;
 }
+.promofutur16, .promofutur17 {
+	margin-top:20px;
+}
+.overlay {
+	background-color:rgba(0,0,0,0.5);
+}
 .promofutur16 {
-	background-image: url('../images/promo1.jpg');
+	background-image: url('../img/promo1.jpg');
+	margin-right:15px;
 }
 .promofutur17 {
-	background-image: url('../images/promo2.jpg');
+	background-image: url('../img/promo2.jpg');
+	margin-left:15px;
 }
 
 /* Slider */

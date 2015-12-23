@@ -17,7 +17,7 @@
         <nav>
             <div class="wrap">
                 <ul class="menu">
-                    <a href="/"><img src="logo.png" alt="" class="logo"></a>
+                    <a href="/"><img src="img/logo.png" alt="" class="logo"></a>
                     <li><a href="/pages/accueil.html">Accueil</a></li>
                     <li><a id="Promotions" href="/pages/promotion.html">Promotions</a></li>
                     <li><a href="/pages/info.html">Formation</a></li>
@@ -47,7 +47,7 @@
     <div class="footer">
         <a href="#">Contact</a>
         <a href="#">Mentions légales</a>
-        <a href="#">Simplon.co</a>
+        <a href="www.simplon.co">Simplon.co</a>
     </div>
     
     <!-- chargement des scripts -->
@@ -57,8 +57,8 @@
         {{#users}}
         
             <div class="column carte">
-                <div class = "perso ui segment"> 
-                    <img src="../images/andrea.png" alt="{{first_name}} {{last_name}}" class="ui tiny circular image"/>
+                <div class="perso ui segment"> 
+                    <img src="{{pictures.small}}" alt="{{first_name}} {{last_name}}" class="ui tiny circular image">
                     <p class="nomprenom">{{first_name}} {{last_name}}</p>
                     <p class="occupation">{{occupation}}</p>
                     <button class="tiny ui button">En savoir plus</button>
