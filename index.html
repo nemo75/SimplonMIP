@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Basic Starter Pack | Simplon</title>
+    <title>Simplon Midi Pyrénées</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
@@ -17,34 +17,53 @@
         <nav>
             <div class="wrap">
                 <ul class="menu">
-                    <img src="logo.png" alt="" class="logo">
-                    <li><a href="#"></a></li>
+                    <a href="/"><img src="logo.png" alt="" class="logo"></a>
                     <li><a href="/pages/accueil.html">Accueil</a></li>
-                    <li><a href="/pages/trombi.html">Elèves</a></li>
+                    <li><a id="eleves" href="/pages/trombi.html">Elèves</a></li>
                     <li><a href="/pages/info.html">Formation</a></li>
                     <li><a href="/pages/contact.html">Contact</a></li>
                 </ul>
             </div>
         </nav>            
     </header>
+    
+
+
     <section class="container wrapper" id="content">
-    <div id="contentin">
-        <div class="promofutur16"><h3>Promo 2015-2016</h3></div>
-        <div class="promofutur17"><h3>Promo 2016-2017</h3></div>
-    </div>
     <div class="push"></div>
     </section>
+    <div id="bandeau">
+    </div>
+
     <div class="footer">
         <a href="#">Contact</a>
         <a href="#">Mentions légales</a>
         <a href="#">Simplon.co</a>
     </div>
-
+    
     <!-- chargement des scripts -->
+    
+    <script id="template" type="x-tmpl-mustache">
+    <div class="ui three column grid">
+        {{#users}}
+        
+            <div class="column carte">
+                <div class = "perso ui segment"> 
+                    <img src="../img/andrea.png" alt="{{first_name}} {{last_name}}" class="ui tiny circular image"/>
+                    <p class="nomprenom">{{first_name}} {{last_name}}</p>
+                    <p class="occupation">{{occupation}}</p>
+                    <button class="tiny ui button">En savoir plus</button>
+                </div>
+            </div>
+        
+        {{/users}}
+        </div>
+    </script>
+
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/semantic-ui-css/semantic.min.js"></script>
-    <script src="node_modules/mustache/mustache.min.js"></script>
     <script src="node_modules/senna/build/senna.js"></script>
+    <script src="node_modules/mustache/mustache.min.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
