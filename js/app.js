@@ -1,6 +1,6 @@
 "use strict";
 /* Initialisation de senna */
-$(document).ready(function(){
+$(function(){
 
 var app = new senna.App();
     app.setBasePath('/');
@@ -14,4 +14,11 @@ var app = new senna.App();
 		});
     };
 
+/* Slider */
+setInterval(function() {
+	$('#liste-images').animate({marginLeft : -900}, 1000, function(){
+		$(this).find("li:last").after($(this).find("li:first"));
+		$(this).css({marginLeft : 0});
+	});
+}, 5000);
 });

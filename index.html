@@ -26,15 +26,24 @@
             </div>
         </nav>            
     </header>
-    
-
-
     <section class="container wrapper" id="content">
-    <div class="push"></div>
+        <div id="slider">
+            <ul id="liste-images">
+                <li class="image-slider">
+                    <img src="/images/promo1.jpg" alt="Images de présentation" />
+                    <p>Bla bla bla </p>
+                </li>
+                <li class="image-slider">
+                    <img src="/images/promo2.jpg" alt="Images de présentation" />
+                    <p>Bla bla bis</p>
+                </li>
+            </ul>
+        </div>
+        <div class="push">
+        </div>
     </section>
     <div id="bandeau">
     </div>
-
     <div class="footer">
         <a href="#">Contact</a>
         <a href="#">Mentions légales</a>
@@ -44,8 +53,7 @@
     <!-- chargement des scripts -->
 
     <script id="template" type="x-tmpl-mustache">
-    
-    <div class="ui three column grid">
+      <div class="ui three column grid">
         {{#users}}
         
             <div class="column carte">
