@@ -62,7 +62,7 @@ ul li {
 }
 .container section {
 	display:inline-block;
-	width:70%;
+	width:100%;
 }
 .container section article {
 	font-size:16px;
