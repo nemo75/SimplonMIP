@@ -4,7 +4,7 @@ $(function(){
 
 var app = new senna.App();
     app.setBasePath('/');
-    app.addSurfaces(['content', 'bandeau']);
+    app.addSurfaces(['content', 'bandeau', 'slider-surface']);
     app.addRoutes(new senna.Route(/\w+\.html/, senna.HtmlScreen));
     senna.Screen.prototype.activate = function() {
 		$.getJSON('https://smp.ovh/ppl.json', function(data){
