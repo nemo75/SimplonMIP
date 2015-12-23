@@ -177,6 +177,7 @@ html, body {
 .massive.ui.button a {
 	color:#D01919;
 }
+
 .boutonsInfo {
 	width:50%;
 	margin:0 auto;
@@ -194,8 +195,8 @@ html, body {
 	height: 200px;
 }
 .promofutur16 {
-	background-image: url('http://www.3wa.ca/wp-content/uploads/2013/04/programmeur-2-400x200.jpg');
+	background-image: url('../images/promo1.jpg');
 }
 .promofutur17 {
-	background-image: url('http://www.rvvn.org/fileadmin/_processed_/csm_equipe_ddd3f078a6.jpg');
+	background-image: url('../images/promo2.jpg');
 }
