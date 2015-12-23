@@ -126,8 +126,6 @@ ul li {
 }
 #bandeau-content {
 	width : 100%;
-	position: absolute;
-	bottom : 100px;
 	padding-top: 1%;
 	background-color: #C7C3C3;
 	text-align: center;
@@ -162,12 +160,12 @@ html, body {
 }
 .wrapper {
   	min-height: 100%;
-  	margin-bottom: -72px; 
+  	margin-bottom: -175px; 
 }
 .wrapper:after {
   	content: "";
   	display: block;
-    height: 72px; 
+    height: 175px; 
 }
 
 /**
