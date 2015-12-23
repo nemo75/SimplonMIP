@@ -84,6 +84,7 @@ ul li {
 #news, .twitterbar {
 	display : inline-block;
 	vertical-align: top;
+	width:30%;
 }
 #news {
 	width:65%;
@@ -221,10 +222,11 @@ html, body {
 	width : 100%;
 	background: #FCFCFC;
 	padding : 0;
+	margin-bottom:20px;
 }
 #slider {
 	overflow : hidden;
-	width : 1000px;
+	width : 940px;
 	height : 200px;
 	margin : 0 auto;
 	padding : 0;
