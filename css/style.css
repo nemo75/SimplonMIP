@@ -126,7 +126,8 @@ ul li {
 }
 #bandeau-content {
 	width : 100%;
-	padding-top: 1%;
+	padding: 2% 0;
+	margin-top:10px;
 	background-color: #C7C3C3;
 	text-align: center;
 }
@@ -218,17 +219,20 @@ html, body {
 /* Slider */
 #slider-surface {
 	width : 100%;
-	background: #444141;
+	background: #FCFCFC;
+	padding : 0;
 }
 #slider {
 	overflow : hidden;
 	width : 1000px;
 	height : 200px;
-	margin : auto;
+	margin : 0 auto;
+	padding : 0;
 }
 .image-slider {
 	width : 1000px;
 	text-align: center;
+	height: 200px;
 	list-style: none;
 	float: left;
 }
