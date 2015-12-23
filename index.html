@@ -18,7 +18,7 @@
             <div class="wrap">
                 <ul class="menu">
                     <a href="/"><img src="img/logo.png" alt="" class="logo"></a>
-                    <li><a href="/pages/accueil.html">Accueil</a></li>
+                    <li><a href="/">Accueil</a></li>
                     <li><a id="Promotions" href="/pages/promotion.html">Promotions</a></li>
                     <li><a href="/pages/info.html">Formation</a></li>
                     <li><a href="/pages/contact.html">Contact</a></li>
@@ -26,27 +26,22 @@
             </div>
         </nav>            
     </header>
-    <div id="slider-surface">
-    </div>
     <section class="container wrapper" id="content">
-
- <div id="slider-surface">
- <div id="slider">
-    <ul id="liste-images">
-        <li class="image-slider">
-            <img src="../img/promo1.jpg" alt="Images de présentation" />
-            <p>Bla bla bla </p>
-        </li>
-        <li class="image-slider">
-            <img src="../img/promo2.jpg" alt="Images de présentation" />
-            <p>Bla bla bis</p>
-        </li>
-    </ul>
-</div>
-</div>
-
-<section class="container" id="content">
-    <div id="content-default">
+        <div id="content-default">
+           <div id="slider-surface">
+               <div id="slider">
+                <ul id="liste-images">
+                    <li class="image-slider">
+                        <img src="../img/promo1.jpg" alt="Images de présentation" />
+                        <p>Bla bla bla </p>
+                    </li>
+                    <li class="image-slider">
+                        <img src="../img/promo2.jpg" alt="Images de présentation" />
+                        <p>Bla bla bis</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <section id="news">   
             <h1>News de la promo !</h1>
             <article>
@@ -62,51 +57,52 @@
             <a class="twitter-timeline" href="https://twitter.com/simplonMIP" data-widget-id="679289837170610176" height="400">Tweets de @simplonMIP</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </aside>
-    </section>
+    </div>
+</section>
+
+
+<div class="push">
+</div>
+</section>
+<div id="bandeau-content">
+    <h4>Ils nous soutiennent !</h4>
+    <img src="../img/active.png" alt="Logo Active"/>
+    <img src="../img/allianz.jpg" alt="Logo Allianz"/>
+    <img src="../img/bpi.png" alt="Logo Bpi"/>
+    <img src="../img/investir.jpg" alt="Logo Investir"/>
+    <img src="../img/microsoft.png" alt="Logo Microsoft"/>
+    <img src="../img/promissio.png" alt="Logo Promissio"/>
+    <img src="../img/sncf.jpg" alt="Logo Sncf"/>
+    <img src="../img/sncfbis.png" alt="Logo Sncf bis"/>
+</div>
+<div class="footer">
+    <a href="#">Contact</a>
+    <a href="#">Mentions légales</a>
+    <a href="www.simplon.co">Simplon.co</a>
+</div>
+
+<!-- chargement des scripts -->
+
+<script id="template" type="x-tmpl-mustache">
+  <div class="ui three column grid">
+    {{#users}}
+
+    <div class="column carte">
+        <div class="perso ui segment"> 
+            <img src="{{pictures.small}}" alt="{{first_name}} {{last_name}}" class="ui tiny circular image">
+            <p class="nomprenom">{{first_name}} {{last_name}}</p>
+            <p class="occupation">{{occupation}}</p>
+            <button class="tiny ui button">En savoir plus</button>
+        </div>
     </div>
 
-        <div class="push">
-        </div>
-    </section>
-    <div id="bandeau-content">
-        <h4>Ils nous soutiennent !</h4>
-        <img src="../img/active.png" alt="Logo Active"/>
-        <img src="../img/allianz.jpg" alt="Logo Allianz"/>
-        <img src="../img/bpi.png" alt="Logo Bpi"/>
-        <img src="../img/investir.jpg" alt="Logo Investir"/>
-        <img src="../img/microsoft.png" alt="Logo Microsoft"/>
-        <img src="../img/promissio.png" alt="Logo Promissio"/>
-        <img src="../img/sncf.jpg" alt="Logo Sncf"/>
-        <img src="../img/sncfbis.png" alt="Logo Sncf bis"/>
-    </div>
-    <div class="footer">
-        <a href="#">Contact</a>
-        <a href="#">Mentions légales</a>
-        <a href="www.simplon.co">Simplon.co</a>
-    </div>
-    
-    <!-- chargement des scripts -->
-
-    <script id="template" type="x-tmpl-mustache">
-      <div class="ui three column grid">
-        {{#users}}
-        
-            <div class="column carte">
-                <div class="perso ui segment"> 
-                    <img src="{{pictures.small}}" alt="{{first_name}} {{last_name}}" class="ui tiny circular image">
-                    <p class="nomprenom">{{first_name}} {{last_name}}</p>
-                    <p class="occupation">{{occupation}}</p>
-                    <button class="tiny ui button">En savoir plus</button>
-                </div>
-            </div>
-        
-        {{/users}}
-        </div>
-    </script>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/semantic-ui-css/semantic.min.js"></script>
-    <script src="node_modules/senna/build/senna.js"></script>
-    <script src="node_modules/mustache/mustache.min.js"></script>
-    <script src="js/app.js"></script>
+    {{/users}}
+</div>
+</script>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/semantic-ui-css/semantic.min.js"></script>
+<script src="node_modules/senna/build/senna.js"></script>
+<script src="node_modules/mustache/mustache.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
