@@ -1,7 +1,6 @@
 "use strict";
-/* Initialisation de senna */
 $(function(){
-
+/* Initialisation de senna */
 var app = new senna.App();
     app.setBasePath('/');
     app.addSurfaces(['content', 'bandeau']);
