@@ -14,7 +14,10 @@ section {
 #googlemap {
 	float: left;
 	padding-right:100px;
+	position: center;
 }
 .info {
 	list-style-type: none;
+	float:left;
+
 }
