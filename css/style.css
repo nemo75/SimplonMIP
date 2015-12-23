@@ -158,12 +158,14 @@ html, body {
     height: 100px; 
 }
 
-.massive.ui.button {
-
+.massive.ui.button a {
+	color:#D01919;
 }
+
+
 
 .boutonsInfo {
 	width:50%;
 	margin:0 auto;
-	padding-top:20px;
+	padding-top:40px;
 }
