@@ -1,18 +1,20 @@
-body, ul {
+
+/* Suppression des marges par défaut des éléments html*/
+
+body, ul, p {
 	margin:0;
 	padding:0;
-	background-color:#FCFCFC;
 }
+
+/* Corps de page */
+
 body {
 	font-family: 'Open Sans', sans-serif;
+	background-color:#FCFCFC;
 }
-ul li {
-	list-style-type: none;
-}
-.wrap {
-	width:940px;
-	margin:auto;
-}
+
+/* Menu */
+
 nav {
 	height:100px;
 	width:100%;
@@ -38,6 +40,16 @@ nav .menu li a {
 nav .menu li a:hover {
 	color:#ED1450;
 }
+
+/* Contenu de la page */
+
+ul li {
+	list-style-type: none;
+}
+.wrap {
+	width:940px;
+	margin:auto;
+}
 .container {
 	width:940px;
 	margin:50px auto;
@@ -57,6 +69,65 @@ nav .menu li a:hover {
 	display:inline-block;
 	padding:0 0 0 30px;
 }
+.container h1 {
+	margin-bottom: 20px;
+}
+
+/* Accueil */
+
+#news, .twitterbar {
+	display : inline-block;
+	vertical-align: top;
+}
+#news {
+	width : 70%;
+}
+
+#news article {
+	margin-bottom: 2%;
+	border : 1px solid #CCC;
+    background-color:#fff;
+    padding : 3%;
+    border-radius: 5px;
+}
+#news h4 {
+	border-bottom: 1px solid #CCC;
+}
+
+/* Trombinoscope */
+
+.perso {
+	background-color:#fff;
+	border:1px solid #CCC;
+	padding:20px;
+	height:130px;
+}
+.perso img {
+	float:left;
+	margin-right:15px;
+}
+.perso .occupation {
+	padding-bottom:5px;
+}
+
+/* Bandeau partenaires */
+
+#bandeau-content img {
+	margin : 0 1% 1% 1%;
+	padding : 0;
+	width : 8%;
+}
+#bandeau-content {
+	width : 100%;
+	position: absolute;
+	bottom : 100px;
+	padding-top: 1%;
+	background-color: #C7C3C3;
+	text-align: center;
+}
+
+/* Footer */
+
 .footer {
 	background-color:#151515;
 	width:100%;
@@ -65,11 +136,15 @@ nav .menu li a:hover {
 	text-align:center;
 	font-size:18px;
 	padding-top:30px;
+	margin-top : 0;
 }
 .footer a {
 	color:#fff;
 	margin-right:10px;
 }
+
+/* Sticky footer, qui reste toujours collé en bas, peu importe le contenu au dessus */
+
 html, body {
   	height: 90%;
 }
@@ -81,4 +156,26 @@ html, body {
   	content: "";
   	display: block;
     height: 100px; 
+}
+
+.promofutur16 {
+	background-image: url('http://www.3wa.ca/wp-content/uploads/2013/04/programmeur-2-400x200.jpg');
+	border: 1px solid #CCC;
+	float: left;
+	width: 400px;
+	height: 200px;
+}
+
+.promofutur17 {
+	background-image: url('http://www.rvvn.org/fileadmin/_processed_/csm_equipe_ddd3f078a6.jpg');
+	border: 1px solid #CCC;
+	float: right;
+	width: 400px;
+	height: 200px;
+}
+
+.boutonsInfo {
+	width:50%;
+	margin:0 auto;
+	padding-top:20px;
 }
