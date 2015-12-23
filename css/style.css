@@ -118,6 +118,7 @@ ul li {
 .ui.grid {
 	margin-bottom:20px
 }
+
 /* Bandeau partenaires */
 
 #bandeau-content img {
@@ -133,9 +134,7 @@ ul li {
 	text-align: center;
 }
 
-/**
-* Footer 
-*/
+/* Footer */
 
 .footer {
 	background-color:#151515;
@@ -170,9 +169,7 @@ html, body {
     height: 175px; 
 }
 
-/**
-* Page formation
-*/
+/* Page formation */
 
 .massive.ui.button a {
 	color:#D01919;
@@ -184,9 +181,8 @@ html, body {
 	padding-top:40px;
 }
 
-/**
-* Page formation
-*/
+/*Page formation */
+
 #contentin h1, #contentin a {
 	color:#fff;
 	position:relative;
@@ -218,6 +214,7 @@ html, body {
 }
 
 /* Slider */
+
 #slider-surface {
 	width : 100%;
 	background: #FCFCFC;
@@ -243,24 +240,23 @@ html, body {
 	padding: 0;
 	margin: 0;
 }
-
 .image-slider img {
 	width : 1000px;
 }
+
+/* Page contact */
+
 .googlemap {
 	float:left;
 	padding-right:20px;
-
 }
 #infoContact {
 	display:inline-block;
 }
-
 .info h3 a {
 	text-decoration: none;
 	color:black;
 }
-
 .info h3 a:visited {
 	text-decoration:none;
 	color:black;
