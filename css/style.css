@@ -223,12 +223,12 @@ html, body {
 #slider {
 	overflow : hidden;
 	width : 1000px;
+	height : 200px;
 	margin : auto;
 }
 .image-slider {
 	width : 1000px;
 	text-align: center;
-	height: 150px;
 	list-style: none;
 	float: left;
 }
@@ -244,5 +244,4 @@ html, body {
 } 
 .image-slider img {
 	width : 1000px;
-	height: 150px;
 }
