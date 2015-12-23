@@ -126,9 +126,8 @@ ul li {
 }
 #bandeau-content {
 	width : 100%;
-	position: absolute;
-	bottom : 100px;
-	padding-top: 1%;
+	padding: 2% 0;
+	margin-top:10px;
 	background-color: #C7C3C3;
 	text-align: center;
 }
@@ -162,12 +161,12 @@ html, body {
 }
 .wrapper {
   	min-height: 100%;
-  	margin-bottom: -72px; 
+  	margin-bottom: -175px; 
 }
 .wrapper:after {
   	content: "";
   	display: block;
-    height: 72px; 
+    height: 175px; 
 }
 
 /**
@@ -218,20 +217,24 @@ html, body {
 }
 
 /* Slider */
+#slider-surface {
+	width : 100%;
+	background: #444141;
+}
 #slider {
-	position : relative;
 	overflow : hidden;
 	width : 900px;
+	margin-bottom:20px;
 }
 .image-slider {
-	width : 900px;
+	width : 1000px;
 	text-align: center;
-	height: 500px;
+	height: 200px;
 	list-style: none;
 	float: left;
 }
 #liste-images {
-	width : 1800px;
+	width : 2000px;
 	padding: 0;
 	margin: 0;
 }
@@ -241,18 +244,8 @@ html, body {
 	left : 30%;
 } 
 .image-slider img {
-	width : 900px;
-	height: 500px;
-}
-#left {
-	position : absolute;
-	top : 250px;
-	left : 0;
-}
-#right {
-	position: absolute;
-	top : 250px;
-	right: 0;
+	width : 1000px;
+	height: 150px;
 }
 .googlemap {
 	float:left;
