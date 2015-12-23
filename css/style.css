@@ -219,12 +219,15 @@ html, body {
 /* Slider */
 #slider-surface {
 	width : 100%;
-	background: #444141;
+	background: #FCFCFC;
+	padding : 0;
 }
 #slider {
 	overflow : hidden;
-	width : 900px;
-	margin-bottom:20px;
+	width : 1000px;
+	height : 200px;
+	margin : 0 auto;
+	padding : 0;
 }
 .image-slider {
 	width : 1000px;
@@ -238,14 +241,9 @@ html, body {
 	padding: 0;
 	margin: 0;
 }
-.image-slider p {
-	position : absolute;
-	bottom : 0;
-	left : 30%;
-} 
+
 .image-slider img {
 	width : 1000px;
-	height: 150px;
 }
 .googlemap {
 	float:left;

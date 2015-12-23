@@ -16,7 +16,7 @@ var app = new senna.App();
 
 /* Slider */
 setInterval(function() {
-	$('#liste-images').animate({marginLeft : -900}, 1000, function(){
+	$('#liste-images').animate({marginLeft : -1000}, 1000, function(){
 		$(this).find("li:last").after($(this).find("li:first"));
 		$(this).css({marginLeft : 0});
 	});
