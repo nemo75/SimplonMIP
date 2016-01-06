@@ -15,19 +15,19 @@
     <header>
         <nav>
             <div class="wrap">
-                <ul class="menu">
-                    <a href="/"><img src="img/logo.png" alt="Logo de Simplon" class="logo"></a>
-                    <li><a href="/">Accueil</a></li>
-                    <li><a href="/pages/promotion.html">Promotions</a></li>
-                    <li><a href="/pages/info.html">Formation</a></li>
-                    <li><a href="/pages/contact.html">Contact</a></li>
+                <ul class="menu" role="menu">
+                    <a href="/" tabindex="0"><img src="img/logo.png" alt="Logo de Simplon" class="logo" role="logo"></a>
+                    <li><a href="/" tabindex="1">Accueil \o/</a></li>
+                    <li><a href="/pages/promotion.html" tabindex="2">Promotions</a></li>
+                    <li><a href="/pages/info.html" tabindex="3">Formation</a></li>
+                    <li><a href="/pages/contact.html" tabindex="4">Contact</a></li>
                 </ul>
             </div>
         </nav>            
     </header>
-    <section class="container wrapper" id="content">
+    <section class="container wrapper" id="content" role="content">
         <div id="content-default">
-            <div id="slider">
+            <div id="slider" role="slider">
                 <ul id="liste-images">
                     <li class="image-slider">
                         <img src="../img/promo1.jpg" alt="Images de présentation" />
@@ -37,18 +37,18 @@
                     </li>
                 </ul>
             </div>
-            <section id="news">   
-                <h1>News de la promo !</h1>
+            <section id="news" tabindex="5" role="news">   
+                <h1 tabindex="6">News de la promo !</h1>
                 <article>
-                    <h2>Titre 1</h2>
+                    <h2 tabindex="7">Titre 1</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorum harum libero perspiciatis eveniet esse, et amet similique sunt maiores minima rerum qui ut aut, modi nesciunt minus dicta? Reiciendis.</p>
                 </article>
                 <article>
-                    <h2>Titre 2</h2>
+                    <h2 tabindex="8">Titre 2</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur architecto sed reprehenderit ratione ipsum blanditiis similique a fugit error consequatur quod quaerat earum assumenda tempora pariatur, laboriosam delectus, expedita amet.</p>
                 </article>
             </section>
-            <aside class="twitterbar">
+            <aside class="twitterbar" role="twitterbar">
                 <a class="twitter-timeline" href="https://twitter.com/simplonMIP" data-widget-id="679289837170610176" height="400">Tweets de @simplonMIP</a>
                 <script>
                     !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
@@ -58,21 +58,21 @@
         <div class="push">
         </div>
     </section>
-    <div id="bandeau-content">
-        <h4>Ils nous soutiennent !</h4>
-        <img src="../img/active.png" alt="Logo Active"/>
-        <img src="../img/allianz.jpg" alt="Logo Allianz"/>
-        <img src="../img/bpi.png" alt="Logo Bpi"/>
-        <img src="../img/investir.jpg" alt="Logo Investir"/>
-        <img src="../img/microsoft.png" alt="Logo Microsoft"/>
-        <img src="../img/promissio.png" alt="Logo Promissio"/>
-        <img src="../img/sncf.jpg" alt="Logo Sncf"/>
-        <img src="../img/sncfbis.png" alt="Logo Sncf bis"/>
+    <div id="bandeau-content" role="partners">
+        <h3 tabindex="9">Ils nous soutiennent !</h3>
+        <img src="../img/active.png" alt="Logo Active"  tabindex="9"/>
+        <img src="../img/allianz.jpg" alt="Logo Allianz" tabindex="10"/>
+        <img src="../img/bpi.png" alt="Logo Bpi" tabindex="11"/>
+        <img src="../img/investir.jpg" alt="Logo Investir" tabindex="12"/>
+        <img src="../img/microsoft.png" alt="Logo Microsoft" tabindex="13"/>
+        <img src="../img/promissio.png" alt="Logo Promissio" tabindex="14"/>
+        <img src="../img/sncf.jpg" alt="Logo Sncf" tabindex="15"/>
+        <img src="../img/sncfbis.png" alt="Logo Sncf bis" tabindex="16"/>
     </div>
-    <div class="footer">
-        <a href="#">Contact</a>
-        <a href="#">Mentions légales</a>
-        <a href="www.simplon.co">Simplon.co</a>
+    <div class="footer" role="footer">
+        <a href="#" tabindex="17">Contact</a>
+        <a href="#" tabindex="18">Mentions légales</a>
+        <a href="www.simplon.co" tabindex="19">Simplon.co</a>
     </div>
 
 <!-- chargement des scripts -->
